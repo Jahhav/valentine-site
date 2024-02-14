@@ -39,7 +39,8 @@ const YasPage = () => {
                 <button class="button-80" role="button" onClick={handleOpenModal}>Obdržet dáreček</button>
                 {isModalOpen && <Modal onClose={handleCloseModal}>
                     <h1 className='darecek-message'>❤️🩷🤍🩵💜🩷🧡💛💚💙🤍🩶</h1>
-                    <h1 className='darecek-message'>Dáreček ti předá Honzíček</h1>
+                    <h1 className='darecek-message ukol'>Nový úkol:</h1>
+                    <h1 className='darecek-message'>Promluv si se Zbyňou</h1>
                     <h1 className='darecek-message'>🥰😘🥰</h1>
                 </Modal>}
             </div>

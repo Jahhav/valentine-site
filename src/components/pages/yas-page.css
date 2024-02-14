@@ -150,6 +150,10 @@
     }
 }
 
+.ukol{
+  color: gold;
+}
+
 @media (max-width: 600px) {
     .container-top {
         font-size: 20px; 
