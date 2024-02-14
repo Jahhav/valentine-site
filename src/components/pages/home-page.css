@@ -1,0 +1,29 @@
+.main-container{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.heading-container{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading-container h1, h2{
+    margin: 10px;
+}
+
+.body-container{
+    width: 80%;
+    height: 200px;
+}

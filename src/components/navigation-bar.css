@@ -1,0 +1,66 @@
+.navigation-bar{
+    /* background-color: rgb(87, 87, 250); */
+    background-color: rgb(193, 87, 250);
+    max-height: 80px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.navigation-logo{
+    margin-left: 2%;
+        max-height: 80px;
+
+}
+
+.JAN{
+    color: white;
+    margin: 0;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    transition: color 0.3s ease;
+        max-height: 80px;
+
+}
+
+.JAN i, .JAN h1{
+    font-size: 40px;
+}
+
+.navigation-links{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    margin-right: 2%;
+}
+
+.item{
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    transition: color 0.3s ease;
+}
+
+.item:hover, .JAN:hover{
+    color: rgb(164, 164, 164);
+}
+
+@media (max-width: 768px) {
+    .JAN i, .JAN h1 {
+        font-size: 30px;
+    }
+    .navigation-links{
+        gap: 10px;
+    }
+    .item{
+        font-size: 15px;
+    }
+}
