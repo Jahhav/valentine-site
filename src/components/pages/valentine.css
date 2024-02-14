@@ -252,10 +252,13 @@
     gap: 10%;
   }
   .button-82-pushable, .button-49{
-    width: 150px;
+    width: 100px;
   }
   .text{
     font-size: 30px;
+  }
+  .cards-container{
+    gap: 6%;
   }
 
 }
